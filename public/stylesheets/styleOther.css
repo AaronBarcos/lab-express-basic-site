@@ -37,3 +37,31 @@ nav a {
     /* padding: 5rem; */
 
 }
+
+#reparto {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h3 {
+    color: white;
+    font-size: 35px;
+    
+}
+
+#reparto p {
+    color: white;
+    
+}
+
+#reparto div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+#reparto div img {
+    width: 300px;
+}
