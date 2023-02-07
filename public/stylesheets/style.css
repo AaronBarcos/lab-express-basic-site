@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("../fondo-avatar.webp");
+    background-repeat: repeat;
+    background-size: cover;
+}
+nav {
+    background-color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    border: solid 2px darkblue;
+    padding: 10px;
+    border-radius: 5px;
+}
