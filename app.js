@@ -2,7 +2,9 @@ const express = require('express')
 const app = express()
 const port = 3003
 
+app.use(express.static("public/images"))
 app.use(express.static("public"))
+
 
 
 app.get("/home", (req , res)=>{

@@ -3,10 +3,9 @@
 }
 
 body {
-    background-image: url("../images/fondo-avatar.webp");
-    background-repeat: repeat;
-    background-size: cover;
+    background-color: #1A242F
 }
+
 nav {
     background-color: white;
     text-decoration: none;
@@ -21,4 +20,20 @@ nav a {
     border: solid 2px #1A242F;
     padding: 10px;
     border-radius: 5px;
+}
+
+#section-text {
+
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 4rem;
+    gap: 4rem;
+    text-align: center;
+    align-items: center
+    /* padding: 5rem; */
+
 }
